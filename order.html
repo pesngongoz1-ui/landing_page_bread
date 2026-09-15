@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สั่งซื้อสินค้า - Daily Bake</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Daily Bake</div>
+    <nav>
+      <a href="index.html">หน้าแรก</a>
+      <a href="product.html">เมนูขนมปัง</a>
+    </nav>
+  </header>
+
+  <main class="container form-container">
+    <h2>ฟอร์มสั่งซื้อขนมปัง</h2>
+    <form id="orderForm">
+      <div class="form-group">
+        <label for="customerName">ชื่อผู้สั่งซื้อ:</label>
+        <input type="text" id="customerName" required placeholder="กรอกชื่อ-นามสกุล">
+      </div>
+      <div class="form-group">
+        <label for="contact">เบอร์โทรศัพท์ / Line ID:</label>
+        <input type="text" id="contact" required placeholder="กรอกเบอร์โทร หรือ Line ID">
+      </div>
+      <div class="form-group">
+        <label for="items">รายการสินค้าที่เลือก:</label>
+        <input type="text" id="items" readonly>
+      </div>
+      <div class="form-group">
+        <label for="total">ราคารวม (บาท):</label>
+        <input type="text" id="total" readonly>
+      </div>
+      <div class="form-group">
+        <label for="note">หมายเหตุเพิ่มเติม:</label>
+        <textarea id="note" rows="3" placeholder="ระบุข้อความเพิ่มเติม (ถ้ามี)"></textarea>
+      </div>
+      <button type="submit" class="btn-submit">ยืนยันการสั่งซื้อ</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

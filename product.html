@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>รายการสินค้า - Daily Bake</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Daily Bake</div>
+    <nav>
+      <a href="index.html">หน้าแรก</a>
+      <a href="product.html" class="active">เมนูขนมปัง</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="page-title">
+      <h1>เมนูขนมปังโฮมเมด</h1>
+      <p>อบสดใหม่ทุกวัน ขนาดมาตรฐาน 89 บาททุกรสชาติ</p>
+    </section>
+
+    <div class="filter-bar" id="filter-bar">
+      <button class="filter-btn active" data-category="all">ทั้งหมด</button>
+      <button class="filter-btn" data-category="chocolate">ช็อกโกแลต</button>
+      <button class="filter-btn" data-category="strawberry">สตรอเบอร์รี่</button>
+      <button class="filter-btn" data-category="vanilla">วนิลลา</button>
+      <button class="filter-btn" data-category="matcha">ชาเขียว</button>
+    </div>
+
+    <div class="product-grid" id="product-list">
+      <p style="text-align:center; grid-column: 1/-1;">กำลังโหลดรายการขนมปัง...</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
