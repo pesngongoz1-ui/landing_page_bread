@@ -4,7 +4,7 @@
     "name": "Chocolate Loaf",
     "category": "Chocolate",
     "price": 89,
-    "image": "images/choc.jpg",
+    "image": "image/choc.jpg",
     "description": "ช็อกโกแลตปอนด์นุ่มฟู อบสดใหม่ รสชาติเข้มข้นสะใจเพื่อเติมความอบอุ่นในยามเช้า"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Strawberry Loaf",
     "category": "Strawberry",
     "price": 89,
-    "image": "images/straw.jpg",
+    "image": "image/straw.jpg",
     "description": "ขนมปังสตรอเบอร์รี่รสหวานซ่อนเปรี้ยว กลิ่นหอมผลไม้เติมความสดชื่นกะทัดรัดสำหรับวันทำงาน"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Vanilla Loaf",
     "category": "Vanilla",
     "price": 89,
-    "image": "images/vall.jpg",
+    "image": "image/vall.jpg",
     "description": "ขนมปังวนิลลาเนยนม สัมผัสเนื้อนุ่มละมุนลิ้น หอมเนยแท้กระจายทั่วคำ เหมาะสำหรับมื้อเช้าอันเรียบง่าย"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Matcha Loaf",
     "category": "Matcha",
     "price": 89,
-    "image": "images/matcha.jpg",
+    "image": "image/matcha.jpg",
     "description": "ขนมปังมัทฉะแท้เกรดพรีเมียม เข้มข้นกลมกล่อม ช่วยปลุกสมาธิและความสดชื่นในยามบ่าย"
   }
 ]
